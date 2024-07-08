@@ -40,7 +40,16 @@
         	<span id="txt2"></span>
     	</div>		
 
+		
+
 		<script >
+
+			// Ensuring music auto-plays
+			document.addEventListener('DOMContentLoaded', function() {
+				var audio = document.getElementById('background-audio');
+				audio.play();
+			});
+
 			var ok = 0;
 			var flag = 1;
 			var myImage = document.getElementById("img");
